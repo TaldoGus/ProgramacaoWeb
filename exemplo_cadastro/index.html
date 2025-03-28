@@ -3,10 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de cadastro de usuário</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo -->
+    <title>Cadastro - Baja SAE Brasil</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Cadastro para o Baja SAE Brasil - FATEC São José dos Campos</h1>
+        <p>Participe do evento onde estudantes de engenharia competem com carrinhos off-road 4x2 e 4x4!</p>
+    </header>
+
+    <!-- Imagem do evento -->
+    <section class="imagem">
+        <h2>Imagem do Evento</h2>
+        <img src="imagem.jpg" alt="Carrinho Baja SAE Brasil">
+
+    </section>
+
+    <!-- Formulário de Cadastro -->
+    <section class="formulario">
+        <h2>Inscreva-se para o evento</h2>
+        <form id="cadastroForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <!-- Vídeo do YouTube -->
+    <section class="video">
+        <h2>Conheça mais sobre o Baja SAE Brasil</h2>
+        <iframe width="600" height="340" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        <p>Substitua "VIDEO_ID" pelo código do vídeo do YouTube.</p>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
