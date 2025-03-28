@@ -2,7 +2,6 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -12,18 +11,17 @@ header {
     background-color: #007bff;
     color: white;
     padding: 20px;
+    text-align: center;
 }
 
-/* Imagem */
-.imagem {
-    margin-top: 20px;
-}
-
-.imagem img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+/* Contêiner para organizar imagem e formulário lado a lado */
+.cadastro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Espaço entre o formulário e a imagem */
+    margin: 30px auto;
+    max-width: 900px;
 }
 
 /* Formulário */
@@ -31,7 +29,6 @@ header {
     background: white;
     padding: 20px;
     width: 300px;
-    margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -65,7 +62,16 @@ button:hover {
     background-color: #218838;
 }
 
+/* Imagem do evento */
+.imagem img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Vídeo */
 .video {
+    text-align: center;
     margin-top: 20px;
 }
