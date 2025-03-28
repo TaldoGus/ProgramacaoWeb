@@ -1,0 +1,71 @@
+/* Estilização Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+/* Imagem */
+.imagem {
+    margin-top: 20px;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulário */
+.formulario {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Vídeo */
+.video {
+    margin-top: 20px;
+}
