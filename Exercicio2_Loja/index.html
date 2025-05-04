@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loja Online</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1> Gus Loja Online</h1>
+    <select id="produto">
+      <option value="Camisa-50">Camisa - R$50</option>
+      <option value="Calça-80">Calça - R$80</option>
+      <option value="Tênis-120">Tênis - R$120</option>
+    </select>
+    <button onclick="adicionarProduto()">Adicionar ao Carrinho</button>
+
+    <h2>Carrinho</h2>
+    <ul id="carrinho"></ul>
+    <p id="total">Total: R$0</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
